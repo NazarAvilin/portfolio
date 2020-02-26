@@ -38,6 +38,10 @@
    .bg-my {
      background-color: rgba(106, 168, 219, 0.3);
    }
+
+  .shadow{
+    box-shadow: 1px 1px 14px black;
+  }
   /*-----------header-------------*/
 
   #logo {
@@ -45,13 +49,15 @@
   }
 
   #brand {
-    color: rgb(29, 29, 175);
+    color: rgb(16, 16, 133);
     font-family: actionMan;
+    text-shadow: 1px 1px 2px white;
   }
 
   #brandRu {
-    color: rgb(29, 29, 175);
+    color: rgb(16, 16, 133);
     font-family: RedOctober;
+    text-shadow: 1px 1px 2px white;
   }
 
 
@@ -84,21 +90,42 @@
   .navbar {
       margin-top: 0px;
       padding: 2px 15px;
-      font-weight: bold;
-      text-shadow: 1px 1px 1px black;
+      font-weight: 900;
+      text-shadow: 1px 1px 3px black;
+      background-color: rgba(54, 22, 196, 0.3);
+      box-shadow: 1px 1px 4px black;
+  }
+  
+ .contact {
+      padding-top: 100px;
+      width: 100%; 
+      background-image: url(tools/top.jpg);
+      background-color: rgb(192, 197, 236);
+      background-blend-mode: multiply;
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      box-shadow: 0px 1px 4px black;
+      z-index:5000;
   }
 
   .header {
-      padding-bottom: 20px;
+    padding-top: 100px;
+      padding-bottom: 60px;
       width: 100%; 
-      background-image: linear-gradient(180deg, white 10%,rgb(173, 223, 230),rgb(109, 165, 187),rgb(61, 125, 199));
+      background-image: url(tools/top.jpg);
+      background-color: rgb(192, 197, 236);
+      background-blend-mode: multiply;
+      background-attachment: fixed;
       background-size: cover;  
-      background-repeat: repeat; 
-      box-shadow: 0px 1px 2px black;
+      background-repeat: no-repeat; 
+      box-shadow: 0px 1px 4px black;
   }
-  .home {
-    position: relative;
-   
+  
+  
+  
+  .active {
+    color: black;
+    text-shadow: red;
   }
   
   #image {
@@ -113,15 +140,15 @@
   }
 
   .name {
-    color:white;
+    color:#FFF;
     font-weight: 900;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: MontserratAlternates;
-    text-shadow: 1px 1px 2px darkblue;
+    text-shadow: 1px 1px 4px darkblue;
   }
    .pro{
-    text-shadow: 1px 1px 1px black;
-    color: white;
+    text-shadow: 1px 1px 4px black;
+    color: #FFF;
     font-size: 5vw;
    } 
 
@@ -250,7 +277,7 @@
 
   @media screen and (max-width: 610px) {
     #sideNavRu {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -262,10 +289,15 @@
 
   @media screen and (max-width: 400px) {
     #sideNavRu {
-      font-size: 7px;
+      font-size: 8.5px;
     }
   }
    
+  @media screen and (max-width: 320px) {
+    #sideNavRu {
+      font-size: 7.5px;
+    }
+  }
 
    /*-----------Contact Me -------------*/
 

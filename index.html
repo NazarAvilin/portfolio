@@ -15,35 +15,35 @@
 
     
   </head>
-  <body data-spy="scroll" data-target="#spyScroll">
+  <body data-spy="scroll" data-target="#spyScroll" data-offset="70">
 
-    <div class="header" id="home">    
+    <div class="header shadow" id="home">    
      
-      <nav class="navbar navbar-expand-md navbar-light" id="spyScroll">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" id="spyScroll">
         <a class="navbar-brand mr-auto" href="index.html" id="brand"><img id="logo" src="tools/Logo.png" alt="Logo"> Nazar Avilin</a>
         <button class="navbar-toggler  justify-content-end" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo">
-          <ul class="navbar-nav nav-tabs">
+          <ul class="navbar-nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link text-info" href="#home">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="#home">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-info" href="#aboutMe">About Me</a>
+              <a class="nav-link text-white" href="#aboutMe">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-info" href="#portfolio">Portfolio</a>
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-info" href="#resume">Resume</a>
+              <a class="nav-link text-white" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-info" href="contact.php">Contact Me</a>
+              <a class="nav-link text-white" href="contact.php">Contact Me</a>
             </li>
             <li class="nav-item dropdown dropleft">
-              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-white" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 EN
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -63,10 +63,10 @@
 
   <!--About me section-->
 
-  <section class="jumbotron bg-white center" id="aboutMe" >
+  <section class="jumbotron bg-white center shadow" id="aboutMe" >
     <div id="goHome" class="float-right"> 
       <a href="#home">
-        <div id="arrow"></div>
+       
       </a> 
     </div> 
     <div class="card-body cardBody">
@@ -88,7 +88,7 @@ Now I want to work in a team, as a junior web developer, to start my career in t
     </div>
     <div id="goHome" class="float-right"> 
       <a href="#home">
-        <div id="arrow"></div>
+        
       </a> 
     </div> 
   </section>
@@ -96,10 +96,10 @@ Now I want to work in a team, as a junior web developer, to start my career in t
   
   <!--Portfolio-->
 
-  <section class="jumbotron bg-color center" id="portfolio">
+  <section class="jumbotron bg-color center shadow" id="portfolio">
     <div id="goHome" class="float-right"> 
       <a href="#home">
-        <div id="arrow"></div>
+        
       </a> 
     </div> 
     <h1 class="display-4 center title">Portfolio</h1>
@@ -191,7 +191,7 @@ Now I want to work in a team, as a junior web developer, to start my career in t
     </div>
     <div id="goHome" class="float-right"> 
       <a href="#home">
-        <div id="arrow"></div>
+        
       </a> 
     </div> 
   </section>
@@ -199,10 +199,10 @@ Now I want to work in a team, as a junior web developer, to start my career in t
 
   <!-----------Resume--------->
 
-  <section class="jumbotron bg-white" id="resume">
+  <section class="jumbotron bg-white shadow" id="resume">
     <div id="goHome" class="float-right"> 
       <a href="#home">
-        <div id="arrow"></div>
+       
       </a> 
     </div> 
     <h1 class="display-4 center title">Resume</h1><br>
@@ -307,6 +307,7 @@ Now I want to work in a team, as a junior web developer, to start my career in t
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -323,6 +324,9 @@ Now I want to work in a team, as a junior web developer, to start my career in t
                   </div>
                   <div class="carousel-item">
                     <img src="tools/PHP.png" class="d-block w-100" alt="PHP Certificate">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="tools/MySQL.png" class="d-block w-100" alt="MySQL Certificate">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -350,7 +354,7 @@ Now I want to work in a team, as a junior web developer, to start my career in t
       <br>
       <div id="goHome" class="float-right"> 
         <a href="#home">
-          <div id="arrow"></div>
+          
         </a> 
       </div> 
   </section>

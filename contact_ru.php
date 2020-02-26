@@ -87,30 +87,26 @@
   </head>
   <body data-spy="scroll" data-target="#spyScroll">
 
-    <div class="header" id="home">    
+    <div class="contact header shadow " id="home">    
      
-      <nav class="navbar navbar-expand-md navbar-light" id="spyScroll">
-        <a class="navbar-brand mr-auto" href="contact_ru.php" id="brandRu"><img id="logo" src="tools/Logo.png" alt="Logo"> Авилин Назар</a>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" id="spyScroll">
+        <a class="navbar-brand mr-auto" href="ru.html" id="brandRu"><img id="logo" src="tools/Logo.png" alt="Logo"> Авилин Назар</a>
         <button class="navbar-toggler  justify-content-end" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo">
-          <ul class="navbar-nav nav-tabs">
+          <ul class="navbar-nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link text-info" href="ru.html">Главная<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="ru.html">Главная<span class="sr-only">(current)</span></a>
             </li>
+           
           </ul>
         </div>
       </nav>
-
-  </div>
-
-
-  <!------------Contact Me------------>
-
-  <section class="jumbotron center" id="contactMe">
-    <h1 class="conatcts display-4 center title">Контакты</h1>
+  
+    <div class="container home">
+      <h1 class="conatcts display-4 center title">Контакты</h1>
 
         <div class="d-flex flex-column bd-highlight mb-3">
          <a href="https://outlook.live.com/mail/0/inbox" target="_blank"> 
@@ -120,14 +116,7 @@
            </div>
          </a>
         </div>
-        <div class="d-flex flex-column bd-highlight mb-3">
-         <a href="#"> 
-           <div class="p-2 bd-white">
-             <img src="tools/email.jpg" class="rounded-circle float-left email-image" alt="My Email Address">
-             <span><h3 class="float-left p-1 my-email">info@nazaravilin.tk</h3></span>
-           </div>
-         </a>
-        </div>
+        
     <hr>
 
     <div class="container center">
@@ -184,8 +173,9 @@
         <img src="tools/twitter.png" alt="My facebook" class="rounded-circle float-left">
       </a>  
     </div>
-    
-  </section>
+    </div>
+
+  </div>
 
   
   
