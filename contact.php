@@ -87,7 +87,7 @@
   </head>
   <body data-spy="scroll" data-target="#spyScroll">
 
-    <div class="contact header shadow" id="home">    
+    <section class="contact header" id="home">    
      
       <nav class="navbar navbar-expand-md navbar-light fixed-top" id="spyScroll">
         <a class="navbar-brand mr-auto" href="index.html" id="brand"><img id="logo" src="tools/Logo.png" alt="Logo"> Nazar Avilin</a>
@@ -175,7 +175,7 @@
     </div>
     </div>
 
-  </div>
+  </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
