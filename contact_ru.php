@@ -87,7 +87,7 @@
   </head>
   <body data-spy="scroll" data-target="#spyScroll">
 
-    <div class="contact header shadow " id="home">    
+    <section class="contact header" id="home">    
      
       <nav class="navbar navbar-expand-md navbar-light fixed-top" id="spyScroll">
         <a class="navbar-brand mr-auto" href="ru.html" id="brandRu"><img id="logo" src="tools/Logo.png" alt="Logo"> Авилин Назар</a>
@@ -175,7 +175,7 @@
     </div>
     </div>
 
-  </div>
+  </section>
 
   
   
