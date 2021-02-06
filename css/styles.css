@@ -137,20 +137,28 @@ header {
     }
 
     #header-image {
-        margin-bottom: 0px;
-        text-align: right;
+        float: right;
         width: 70%;
+        margin-right: 50px;
     }
 
     #about h1 {
-        font-size: 24pt;
+        font-size: 20pt;
     }
 
     .title1 {
-        font-size: 24pt;
+        font-size: 20pt;
+        padding: 0px;
     }
 
     .title2 {
-        font-size: 20pt;
+        font-size: 16pt;
+    }
+
+    #contact {
+        margin-top: -30px;
+        padding: 40px;
+        box-shadow: 0 8px 6px -6px black;
+        text-align: center;
     }
 }
